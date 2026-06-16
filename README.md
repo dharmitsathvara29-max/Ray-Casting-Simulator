@@ -59,30 +59,22 @@ The ray matrix automatically recalculates.
 Controls how many rays are projected per frame.
 
 Examples:
-
 50 Rays → Lightweight simulation
 360 Rays → Detailed visibility scan
 720 Rays → High precision environment mapping
 5. Rotation Angle Controller
 
 Allows directional steering of the ray emitter.
-
 Useful for simulating:
-
 Security cameras
 LiDAR scanners
 Robot vision systems
 Spotlight systems
 6. Interactive Boundary Placement
-
 Users can click and drag inside the canvas to create new wall segments.
-
 New walls are instantly registered into the intersection engine.
-
 7. Vision Polygon Rendering
-
 The closest intersection points are chained together into a visibility polygon.
-
 This produces a realistic illuminated field-of-view region while leaving unseen areas in shadow.
 
 8. Maze Template Loader
@@ -98,14 +90,11 @@ Intersection accuracy
 Custom environments are automatically saved.
 
 Stored data includes:
-
 Wall coordinates
 Environment configuration
-
 All layouts are restored after browser refresh.
 
 10. System Telemetry HUD
-
 Displays real-time diagnostics:
 
 Light Source Position
@@ -115,9 +104,7 @@ Total Intersections
 FPS (Frames Per Second)
 Rendering Latency (ms)
 11. Geometry Export Utility
-
 Exports all wall coordinates as:
-
 [
   {
     "x1": 100,
@@ -165,16 +152,7 @@ RayCastingSimulator/
 ├── vite.config.js
 │
 └── README.md
-🚀 Setup & Run
-Clone Repository
-git clone <repository-url>
-cd RayCastingSimulator
-Install Dependencies
-npm install
-Start Development Server
-npm run dev
-Build Production Version
-npm run build
+
 📈 Performance Highlights
 Fully Client-Side Rendering
 Zero Backend Dependencies
